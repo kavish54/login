@@ -13,7 +13,6 @@
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-
 }
 
 .navbar {
@@ -21,7 +20,7 @@
     display: flex;
     align-items: center;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 .logo {
@@ -75,55 +74,6 @@ p {
     font-size: 11px;
 }
 
-button {
-    width: 180px;
-    color: #ffffff;
-    font-size: 18px;
-    padding: 12px 0;
-    transition: transform 0.5s;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-    cursor: pointer;
-    background-image: url(explore.jpg);
-}
-
-.card {
-    width: 230px;
-    height: 200px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    /* margin: 10px 15px; */
-    margin: 20px;
-    box-sizing: border-box;
-    cursor: pointer;
-    background-image: url(card.jpg);
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.card:hover {
-    transform: translateY(-20px);
-}
-
-h5 {
-    color: #fff;
-    text-shadow: 0 0 5px #999;
-    margin: 40% 30%;
-    align-items: center;
-    text-align: center;
-}
-
-.card p {
-    text-shadow: 0 0 15px #000;
-}
-
 .col1 {
     padding-right: 100px;
 }
@@ -134,8 +84,39 @@ h5 {
 
 .ip-desc {
     font-size: medium;
+
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+     border-radius: 20px; 
+    margin: 100px; 
+    box-sizing: border-box;
+    cursor:default;
+    background-image: url(patent-logo.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: scale(1.25);
 }
 
 button:hover {
     transform: scale(1.15);
+}
+
+button {
+    width: 180px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 0;
+    transition: transform 0.5s;
+    border: 0;
+    border-radius: 1000px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    background-image: url(explore.jpg);
 }
